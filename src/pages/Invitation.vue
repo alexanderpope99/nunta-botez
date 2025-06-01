@@ -68,7 +68,7 @@
       <nav class="oliven-main-menu">
         <ul>
           <li><a href="#home" @click="onAnchorClick">Acasă</a></li>
-          <li><a href="#couple" @click="onAnchorClick">Noi doi</a></li>
+          <li><a href="#couple" @click="onAnchorClick">Noi</a></li>
           <li><a href="#story" @click="onAnchorClick">Eveniment</a></li>
           <li><a href="#whenwhere" @click="onAnchorClick">Unde și când</a></li>
           <li><a href="#rsvp" @click="onAnchorClick">Confirmare</a></li>
@@ -92,6 +92,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center caption">
+              <h1 class="invitation-title pt-5">
+                Vă invităm la nunta și botezul nostru!
+              </h1>
               <h1
                 class="animate-box fadeInUp animated"
                 data-animate-effect="fadeInUp"
@@ -135,10 +138,12 @@
                 </div>
                 <div class="info valign">
                   <div class="full-width">
-                    <h6>Andreea Lupei <i class="ti-heart"></i></h6>
+                    <h6 class="mt-3">Andreea Lupei <i class="ti-heart"></i></h6>
                     <span>Mireasă</span>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet tincidunt ante, id cursus ligula aliquet vel.
+                      Sufletul cald care aduce zâmbetul în fiecare zi. Cu un
+                      zbor lin, dar sigur, pășește spre un nou început alături
+                      de persoana iubită.
                     </p>
                   </div>
                 </div>
@@ -154,10 +159,14 @@
                 </div>
                 <div class="info valign">
                   <div class="full-width">
-                    <h6>Andrei-Florin Lupei <i class="ti-heart"></i></h6>
+                    <h6 class="mt-3">
+                      Andrei-Florin Lupei <i class="ti-heart"></i>
+                    </h6>
                     <span>Mire</span>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet tincidunt ante, id cursus ligula aliquet vel.
+                      Omul hotărât, cu inima mare și brațele deschise către
+                      viitor. A construit o poveste în care dragostea este
+                      fundamentul.
                     </p>
                   </div>
                 </div>
@@ -173,10 +182,17 @@
                 <div class="info valign daughter">
                   <div class="full-width display-flex justify-content-center">
                     <div class="img">
-                      <img src="../assets/images/daughter.jpg" alt="daughter" />
+                      <img
+                        src="../assets/images/daughter.jpeg"
+                        alt="daughter"
+                      />
                     </div>
                     <h6>Sara Ștefania Lupei <i class="ti-heart"></i></h6>
                     <span>Draga noastră fetiță</span>
+                    <p>
+                      Lumina ochilor noștri și bucuria fiecărei zile. Cu pași
+                      mici, ne învață ce înseamnă iubirea necondiționată.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -264,25 +280,43 @@
               </div>
             </div>
             <div
-              class="col-md-7 animate-box fadeInRight animated"
+              class="col-md-7 animate-box fadeInRight animated oliven-story"
               data-animate-effect="fadeInRight"
             >
               <h4 class="oliven-story-subtitle">Iubirea noastră.</h4>
               <h3 class="oliven-story-title">Împărtășită cu voi.</h3>
+              <p class="oliven-story-introduction">Dragii noștri,</p>
+
               <p>
-                Sunt momente în viață pe care le aștepți cu sufletul la gură și
-                cu fluturași în stomac, iar acesta, pentru noi, este unul dintre
-                ele.
+                Viața ne-a oferit cel mai frumos dar: iubirea. Am crescut
+                împreună, ne-am descoperit, ne-am ales, iar acum suntem gata să
+                pășim în cea mai importantă etapă – căsătoria. În același timp,
+                am primit o binecuvântare și mai mare: nașterea copilului
+                nostru, sufletul care ne-a întregit familia.
               </p>
+
               <p>
-                Începând cu această zi vom păși spre viitor cu planuri
-                ambițioase, cu visuri mărețe și cu forțe proaspete, unite.
+                În semn de recunoștință pentru tot ce trăim și simțim, ne dorim
+                să sărbătorim aceste două momente speciale alături de voi – cei
+                dragi nouă, familia și prietenii noștri.
               </p>
+
               <p>
-                Avem deosebita plăcere de a vă invita să fiți alături de noi în
-                ziua în care sufletele noastre se vor uni.
+                Vă invităm cu mult drag să fiți martorii bucuriei noastre, la
+                cununia religioasă și la botezul copilului nostru, unde vom
+                celebra iubirea și viața într-o zi de neuitat.
               </p>
-              <p>Vă așteptăm cu drag!</p>
+
+              <p>
+                Vă așteptăm cu inima deschisă, să ne fiți alături în această zi
+                MAGICĂ!
+              </p>
+              <br />
+              <p class="oliven-story-ending">
+                Cu drag,<br />
+                Andreea, Andrei<br />
+                și Sara Ștefania
+              </p>
             </div>
           </div>
         </div>
@@ -325,8 +359,7 @@
                   <div class="content">
                     <h5>Cununia religioasă și Botezul</h5>
                     <p>
-                      <i class="ti-location-pin mr-1"></i> Biserica "Sfinții
-                      Împărați Constantin și Elena"<br />
+                      <i class="ti-location-pin mr-1"></i> Biserica din Pogonele<br />
                       <span class="ti-location-text"
                         >Pogonele, Buzău, România</span
                       >
@@ -363,7 +396,7 @@
                       <span class="ti-location-text">DN2B, Buzău, România</span>
                     </p>
                     <p>
-                      <i class="ti-time mr-1"></i>
+                      <i class="ti-time mr-2"></i>
                       <span>27 Iulie 2025, 20:00</span>
                     </p>
                     <p>
@@ -393,22 +426,28 @@
         :style="{ backgroundImage: `url(${bg2})` }"
       >
         <div class="overlay"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 offset-md-3 bg-white p-40">
+        <div class="container ">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-6 offset-md-3 bg-white p-40 rsvp-form">
               <span class="oliven-title-meta text-center">Vei participa?</span>
               <h2 class="oliven-subtitle-small text-center">
                 Te așteptăm cu drag!<br />
                 Completează formularul pentru a ne anunța decizia ta.<br />
                 Sau dă-ne un telefon:<br />
-                <span style="margin-right: 50px">Andreea: 0729 925 786</span>
-                <span>Andrei: 0768 875 797</span>
+                <span>Andreea - 0729 925 786</span><br>
+                <span>Andrei - 0768 875 797</span><br>
+                Vă rugăm să ne confirmați prezența pănă la data de 30 Iunie
+                2025!
               </h2>
               <br />
               <form class="confirmation-wrapper row">
                 <div class="col-md-12 personName">
                   <div class="form-group">
-                    <label for="fname">Numele (al tău sau al familiei) ⃰</label>
+                    <label for="fname"
+                      >Numele (al tău sau al familiei)<span class="asterisk">
+                        ⃰</span
+                      ></label
+                    >
                     <input
                       type="text"
                       id="fname"
@@ -422,7 +461,9 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="numberOfPersons">Câți adulți? ⃰</label>
+                    <label for="numberOfPersons"
+                      >Câți adulți?<span class="asterisk"> ⃰</span></label
+                    >
                     <select
                       name="numberOfPersons"
                       id="numberOfPersons"
@@ -474,7 +515,7 @@
                       name="food"
                       id="food"
                       cols="30"
-                      rows="7"
+                      rows="3"
                       class="form-control"
                       placeholder="Vegetarian, vegan, etc."
                       enterkeyhint="enter"
@@ -489,7 +530,7 @@
                       name="message"
                       id="message"
                       cols="30"
-                      rows="7"
+                      rows="3"
                       class="form-control"
                       placeholder="Alte dorințe, urări..."
                       enterkeyhint="enter"
@@ -531,11 +572,9 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <h2 class="mb-3">
-                <a href="#home"
-                  ><img src="../assets/images/logo.png" alt="footer" /><span
-                    >Andreea <small>&amp;</small> Andrei</span
-                  ><span class="secondary">Sara Ștefania</span></a
-                >
+                <img src="../assets/images/logo.png" alt="footer" /><span
+                  >Andreea <small>&amp;</small> Andrei</span
+                ><span class="secondary">Sara Ștefania</span>
               </h2>
               <p class="copyright">27 Iulie 2025 – Buzău</p>
               <p class="mb-0">Andreea: 0729 925 786</p>
@@ -726,18 +765,19 @@ function smoothScrollTo(element, duration = 1000) {
 }
 
 const onAnchorClick = (event) => {
-  const href = event.target.getAttribute("href");
-  if (href && href.startsWith("#")) {
-    event.preventDefault();
+  event.preventDefault();
 
+  const href = event.currentTarget.getAttribute("href");
+
+  if (href && href.startsWith("#")) {
     closeMenu();
 
     setTimeout(() => {
       const targetElement = document.querySelector(href);
       if (targetElement) {
-        smoothScrollTo(targetElement, 1500); // 1500ms = slower scroll
+        smoothScrollTo(targetElement, 1500);
       }
-    }, 100); // Wait 500ms before scrolling
+    }, 100);
   }
 };
 
@@ -873,5 +913,18 @@ main {
   object-fit: cover;
   display: block;
   margin: 0 auto;
+}
+
+.invitation-title {
+  margin-bottom: 3.5rem !important;
+}
+
+.asterisk {
+  color: #bd945a;
+  margin-left: 0.5rem;
+}
+
+.rsvp-form {
+  margin-left: 0 !important;
 }
 </style>

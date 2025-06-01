@@ -27,9 +27,6 @@
 ------------------------------------------------------------------- */
 
 /* ===== Default style ===== */
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
-
 html,
 body {
   -moz-osx-font-smoothing: grayscale;
@@ -452,7 +449,7 @@ input[type="checkbox"] {
     width: 30%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #oliven-aside {
     width: 270px;
     -moz-transform: translateX(-270px);
@@ -500,7 +497,7 @@ input[type="checkbox"] {
   width: 90px;
   margin-bottom: 0px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #oliven-aside .oliven-logo {
     margin-bottom: 60px;
   }
@@ -533,7 +530,7 @@ input[type="checkbox"] {
   margin: 0;
   padding: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #oliven-aside .oliven-main-menu ul {
     margin: 0 0 30px 0;
   }
@@ -603,7 +600,7 @@ input[type="checkbox"] {
   border-bottom: 1px solid rgba(189, 148, 90, 0.4);
   margin: 5px auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #oliven-aside .footer1 {
     position: relative;
     padding-top: 60px;
@@ -623,7 +620,7 @@ input[type="checkbox"] {
     width: 70%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #oliven-main {
     width: 100%;
   }
@@ -736,10 +733,10 @@ input[type="checkbox"] {
   -o-transition: 0.5s;
   transition: 0.5s;
   background: #bd945a;
-  margin: 15px 30px;
+  margin: 10px 15px;
   border-radius: 50%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .oliven-nav-toggle {
     opacity: 1;
     visibility: visible;
@@ -1069,7 +1066,7 @@ body.offcanvas .oliven-nav-toggle {
   color: #fff;
   letter-spacing: -1px;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   #countdown li {
     font-size: 12px;
     padding: 15px;
@@ -1152,7 +1149,7 @@ body.offcanvas .oliven-nav-toggle {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .story-img .story-img-2 {
     width: 40% !important;
     height: 120px;
@@ -1309,6 +1306,11 @@ body.offcanvas .oliven-nav-toggle {
   margin-bottom: 0;
 }
 
+.oliven-story-introduction, .oliven-story-ending {
+  font-size: 17px;
+  font-weight: bold;
+}
+
 /* =====  Gallery style  ===== */
 .gallery-menu li a {
   cursor: pointer;
@@ -1427,7 +1429,7 @@ body.offcanvas .oliven-nav-toggle {
   margin-bottom: 60px;
   box-shadow: 0 25px 75px rgba(0, 0, 0, 0.05);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .whenwhere-entry {
     margin-bottom: 45px;
   }
@@ -1604,7 +1606,7 @@ body.offcanvas .oliven-nav-toggle {
 .footer2 .copyright {
   color: #666;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .footer2 {
     padding: 70px 30px 80px 30px;
     text-align: center;
@@ -1716,6 +1718,12 @@ body.offcanvas .oliven-nav-toggle {
     padding: 15px 10px;
     font-size: 11px;
   }
+
+  .oliven-story {
+    .oliven-story-introduction {
+      margin-top: 5rem;
+    }
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -1801,14 +1809,14 @@ if it's done in JS, the same parameters can be used there */
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .section-padding {
     padding-top: 70px;
     padding-bottom: 70px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .whenwhere p {
     font-size: 15px;
   }

@@ -15,7 +15,8 @@
               class="animate-box fadeInUp animated"
               data-animate-effect="fadeInUp"
             >
-              Mulțumim! <br> Vă așteptăm!
+              Mulțumim! <br />
+              Vă așteptăm!
             </h1>
             <h5
               class="animate-box fadeInUp animated mt-3"
@@ -35,22 +36,24 @@
       </div>
     </header>
 
-      <div class="footer2">
-        <div class="oliven-narrow-content">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <h2 class="mb-3">
-                <a href="/"
-                  ><img src="../assets/images/logo.png" alt="footer" /><span
-                    >Andreea <small>&amp;</small> Andrei</span
-                  ><span class="secondary">Sara Ștefania</span></a
-                >
-              </h2>
-              <p class="copyright">27 Iulie 2025 – Buzău</p>
-            </div>
+    <div class="footer2">
+      <div class="oliven-narrow-content">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="mb-3">
+              <a href="/#"
+                ><img src="../assets/images/logo.png" alt="footer" /><span
+                  >Andreea <small>&amp;</small> Andrei</span
+                ><span class="secondary">Sara Ștefania</span></a
+              >
+            </h2>
+            <p class="copyright">27 Iulie 2025 – Buzău</p>
+            <p class="mb-0">Andreea: 0729 925 786</p>
+            <p class="mt-0">Andrei: 0768 875 797</p>
           </div>
         </div>
       </div>
+    </div>
   </div>
 </template>
 
